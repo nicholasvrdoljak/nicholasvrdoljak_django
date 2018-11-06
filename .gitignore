@@ -1,0 +1,20 @@
+*.pyc
+*.pyo
+*.mo
+*~
+.coverage
+db.sqlite3
+uwsgi.ini
+log/**
+!log/placeholder
+media/**
+!media/**/init.txt
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+
+*.pyc
+__ pycache __
+myvenv
+/static
+.DS_Store
